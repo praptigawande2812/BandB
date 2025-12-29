@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Globe, Instagram, Twitter } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -18,9 +18,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Facebook, url: '#', label: 'Facebook' },
-    { icon: Instagram, url: '#', label: 'Instagram' },
-    { icon: Twitter, url: '#', label: 'Twitter' }
+    { icon: Globe, url: 'https://share.google/I6IMhX9o0gKm70zTM', label: 'Google' },
+    { icon: Instagram, url: 'https://www.instagram.com/babies.and.beyondclinic/', label: 'Instagram' }
+    // { icon: Twitter, url: '#', label: 'Twitter' }
   ];
 
   return (
@@ -33,8 +33,8 @@ const Footer = () => {
               <div className="footer-logo">
                 <div className="logo-icon">🏥</div>
                 <div className="logo-text">
-                  <span className="logo-name">Babies & Beyond</span>
-                  <span className="logo-subtitle">Pediatric Clinic</span>
+                  <h2 className="logo-name">Babies & Beyond</h2>
+                  <h3 className="logo-subtitle">Pediatric Clinic</h3>
                 </div>
               </div>
               <p className="footer-description">
@@ -71,7 +71,7 @@ const Footer = () => {
 
             {/* Services */}
             <div className="footer-section">
-              <h4 className="footer-title">Our Services</h4>
+              <h3 className="footer-title">Our Services</h3>
               <ul className="footer-links">
                 {services.map((service, index) => (
                   <li key={index}>
@@ -85,7 +85,7 @@ const Footer = () => {
 
             {/* Contact Info */}
             <div className="footer-section">
-              <h4 className="footer-title">Contact Info</h4>
+              <h2 className="footer-title">Contact Info</h2>
               <div className="contact-details">
                 <div className="contact-item">
                   <MapPin size={16} />

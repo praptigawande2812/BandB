@@ -11,7 +11,7 @@
 
 .footer-content {
   display: grid;
-  grid-template-columns: 5fr 5fr 2fr 2fr;
+  grid-template-columns: 7fr 7fr 2fr 2fr;
   gap: var(--spacing-xl);
 }
 
@@ -90,8 +90,8 @@
 .footer-title {
   color: white;
   margin-bottom: var(--spacing-md);
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 .footer-links {

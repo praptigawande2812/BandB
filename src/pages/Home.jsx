@@ -61,54 +61,87 @@ const Home = () => {
 
   const testimonials = [
     {
-      name: 'Archana Dixit',
-      content: 'We visited Dr. Vaishnavi\'s clinic for vaccination of my daughter and had a very positive experience. She is very polite and helpful.',
+      name: 'Aniket Kulkarni',
+      content: 'Visited the clinic for my baby’s check-up and had a very positive experience. The care and attention were excellent.',
       rating: 5,
-      date: '5 months ago',
+      date: '1 month ago',
       initial: 'A',
       verified: true
     },
     {
-      name: 'Raju Andhale',
-      content: 'Dr. Vaishnavi provides treatment in a very good manner. She guides very well too. My daughter had an increased WBC count and she handled it with great care and expertise.',
+      name: 'Milap Patel',
+      content: 'Dr. Vaishnavi is an excellent, humble, and knowledgeable doctor. She explains everything in depth and answers all queries patiently.',
       rating: 5,
-      date: '5 months ago',
-      initial: 'R',
-      verified: true
-    },
-    {
-      name: 'Sheetal Garje',
-      content: 'Dr. Vaishnavi is an exceptionally skilled and experienced pediatrician. When my daughter was unwell, we consulted her and she provided excellent care with detailed explanations.',
-      rating: 5,
-      date: '5 months ago',
-      initial: 'S',
-      verified: true
-    },
-    {
-      name: 'Sarah Johnson',
-      content: 'Dr. Vaishnavi has been taking care of my children for 5 years. The clinic is always clean, staff is friendly, and my kids actually look forward to their visits!',
-      rating: 5,
-      date: '3 months ago',
-      initial: 'S',
-      verified: true
-    },
-    {
-      name: 'Michael Chen',
-      content: 'The team at Dr. Vaishnavi\'s clinic goes above and beyond. They explain everything clearly and make sure we understand our children\'s health needs.',
-      rating: 5,
-      date: '2 months ago',
+      date: '1 week ago',
       initial: 'M',
       verified: true
     },
     {
-      name: 'Emily Rodriguez',
-      content: 'As a first-time mom, I was nervous about vaccinations. The staff was so patient and reassuring. I couldn\'t ask for better care.',
+      name: 'Samar Ahmad',
+      content: 'A wonderful experience. The clinic is specially designed for newborns and children, and you feel warmth and care the moment you enter.',
       rating: 5,
       date: '1 month ago',
-      initial: 'E',
+      initial: 'S',
+      verified: true
+    },
+    {
+      name: 'Pranita Ghule',
+      content: 'Dr. Vaishnavi provides expert pediatric care and ensures parents fully understand the treatment plan. Truly a wonderful doctor.',
+      rating: 5,
+      date: '1 month ago',
+      initial: 'P',
+      verified: true
+    },
+    {
+      name: 'Bhagyashree Kalshetty',
+      content: 'Very attentive doctor. Answers all doubts patiently. The clinic is clean, well maintained, and staff is polite.',
+      rating: 5,
+      date: '2 weeks ago',
+      initial: 'B',
+      verified: true
+    },
+    {
+      name: 'Nikita Mankar',
+      content: 'Dr. Vaishnavi is a phenomenal doctor and a kind human being. Professional, to the point, and very supportive with parental guidance.',
+      rating: 5,
+      date: '2 weeks ago',
+      initial: 'N',
+      verified: true
+    },
+    {
+      name: 'Ashish Gorle',
+      content: 'Highly recommend Dr. Vaishnavi. She listens carefully, diagnoses thoroughly, and provides expert guidance in a child-friendly environment.',
+      rating: 5,
+      date: '3 weeks ago',
+      initial: 'A',
+      verified: true
+    },
+    {
+      name: 'Santosh Dhage',
+      content: 'I truly appreciate the care and attention given to my child. A reliable and caring children’s clinic in Wakad.',
+      rating: 5,
+      date: '1 month ago',
+      initial: 'S',
+      verified: true
+    },
+    {
+      name: 'Neha Singh',
+      content: 'Smooth vaccination experience for our 1.5-month-old baby. Doctor explained everything clearly. Very knowledgeable pediatrician.',
+      rating: 5,
+      date: '3 weeks ago',
+      initial: 'N',
+      verified: true
+    },
+    {
+      name: 'Balaji Gayke',
+      content: 'Excellent experience. Doctor explained the condition and treatment in detail. Clinic is child-friendly and well maintained.',
+      rating: 5,
+      date: '2 days ago',
+      initial: 'B',
       verified: true
     }
   ];
+  
 
   const [expandedTestimonials, setExpandedTestimonials] = useState(new Set());
 
