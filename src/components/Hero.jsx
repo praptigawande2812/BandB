@@ -21,7 +21,7 @@ const Hero = () => {
                 <h5 className="hero-title-accent">Children's Clinic and Vaccination Center</h5>
               </h1>
               <p className="hero-description">
-                Welcome to Little Hearts Pediatric Clinic, where we provide compassionate,
+                Welcome to Babies & Beyond Children's Clinic, where we provide compassionate,
                 comprehensive healthcare for children of all ages. Our experienced team
                 is dedicated to ensuring your child grows up healthy, happy, and strong.
               </p>

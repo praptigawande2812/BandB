@@ -606,3 +606,21 @@
   border-radius: var(--radius-xl);
   z-index: 1;
 }
+/* Enable touch horizontal scrolling */
+.testimonials-carousel {
+  overflow-x: auto;          /* allow horizontal scroll */
+  -webkit-overflow-scrolling: touch; /* smooth touch scrolling on mobile */
+  scroll-snap-type: x mandatory;
+}
+
+.google-testimonial-card {
+  scroll-snap-align: start;
+}
+
+/* Optional: hide scrollbar but keep scrolling */
+.testimonials-carousel::-webkit-scrollbar {
+  display: none;
+}
+.testimonials-carousel {
+  scrollbar-width: none; /* Firefox */
+}
