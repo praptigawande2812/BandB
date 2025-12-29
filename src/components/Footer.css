@@ -1,6 +1,6 @@
 /* Footer Styles */
 .footer {
-  background: var(--text-dark);
+  background: var(--primary-heading);
   color: white;
   margin-top: auto;
 }
@@ -29,7 +29,7 @@
 
 .footer-logo .logo-icon {
   font-size: 2rem;
-  background: linear-gradient(135deg, var(--primary-blue), var(--soft-green));
+  background: linear-gradient(135deg, var(--secondary-heading), var(--primary-heading));
   border-radius: var(--radius-md);
   padding: var(--spacing-xs);
   display: flex;
@@ -52,14 +52,16 @@
 
 .footer-logo .logo-subtitle {
   font-size: 0.8rem;
-  color: var(--text-light);
+  color: white;
   line-height: 1;
+  opacity: 0.9;
 }
 
 .footer-description {
-  color: var(--text-light);
+  color: white;
   margin-bottom: var(--spacing-lg);
   line-height: 1.6;
+  opacity: 0.9;
 }
 
 .social-links {
@@ -81,7 +83,7 @@
 }
 
 .social-link:hover {
-  background: var(--accent-orange);
+  background: rgba(255, 255, 255, 0.2);
   transform: translateY(-2px);
 }
 
@@ -103,14 +105,16 @@
 }
 
 .footer-link {
-  color: var(--text-light);
+  color: white;
   text-decoration: none;
   transition: color 0.3s ease;
   font-size: 0.9rem;
+  opacity: 0.9;
 }
 
 .footer-link:hover {
-  color: var(--accent-orange);
+  color: white;
+  opacity: 1;
 }
 
 .contact-details {
@@ -123,15 +127,17 @@
   display: flex;
   align-items: flex-start;
   gap: var(--spacing-sm);
-  color: var(--text-light);
+  color: white;
   font-size: 0.9rem;
   line-height: 1.5;
+  opacity: 0.9;
 }
 
 .contact-item svg {
-  color: var(--accent-orange);
+  color: white;
   margin-top: 2px;
   flex-shrink: 0;
+  opacity: 0.9;
 }
 
 .footer-bottom {
@@ -147,9 +153,10 @@
 }
 
 .copyright {
-  color: var(--text-light);
+  color: white;
   font-size: 0.9rem;
   margin: 0;
+  opacity: 0.9;
 }
 
 .footer-legal {
@@ -158,14 +165,16 @@
 }
 
 .legal-link {
-  color: var(--text-light);
+  color: white;
   text-decoration: none;
   font-size: 0.9rem;
-  transition: color 0.3s ease;
+  transition: opacity 0.3s ease;
+  opacity: 0.9;
 }
 
 .legal-link:hover {
-  color: var(--accent-orange);
+  color: white;
+  opacity: 1;
 }
 
 /* Mobile Styles */

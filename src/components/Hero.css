@@ -13,7 +13,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, var(--primary-blue), var(--light-blue), var(--soft-green));
+  background: linear-gradient(135deg, #F4E6E9 0%, #F4E6E9 50%, rgba(244, 230, 233, 0.95) 100%);
   z-index: -2;
 }
 
@@ -32,7 +32,7 @@
   position: relative;
   z-index: 1;
   width: 100%;
-  padding: var(--spacing-xxl) 0;
+  
 }
 
 .hero-grid {
@@ -44,7 +44,7 @@
 }
 
 .hero-text {
-  color: white;
+  color: var(--primary-heading);
 }
 
 .hero-title {
@@ -52,20 +52,20 @@
   font-weight: 700;
   line-height: 1.1;
   margin-bottom: var(--spacing-md);
-  color: white;
+  color: var(--primary-heading);
 }
 
 .hero-title-accent {
   display: block;
-  color: var(--accent-orange);
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: var(--secondary-heading);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .hero-description {
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: var(--spacing-lg);
-  color: rgba(255, 255, 255, 0.9);
+  color: var(--text-color);
   max-width: 500px;
 }
 
@@ -99,7 +99,11 @@
   display: flex;
   align-items: center;
   font-size: 1rem;
-  color: var(--accent-orange);
+  color: var(--secondary-heading);
+}
+
+.contact-item-p h4 {
+  color: var(--secondary-heading);
 }
 
 /* ---------------- Image Section ---------------- */

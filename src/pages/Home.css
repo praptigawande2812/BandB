@@ -1,9 +1,5 @@
 /* Home Page Styles */
 
-/* .home {
-  padding-top: 90px; /* Account for fixed header */
-*/
-
 /* Stats Section */
 .stats-section {
   background: linear-gradient(135deg, var(--primary-blue), var(--light-blue));
@@ -37,17 +33,17 @@
 
 /* Services Preview */
 .services-preview {
-  background: var(--warm-white);
+  background: white;
 }
 
 .section-header h2 {
-  color: var(--text-dark);
+  color: var(--primary-heading);
   margin-bottom: var(--spacing-sm);
 }
 
 .section-header p {
   font-size: 1.1rem;
-  color: var(--text-medium);
+  color: var(--text-color);
   max-width: 600px;
   margin: 0 auto;
 }
@@ -71,14 +67,19 @@
   align-items: center;
 }
 
-.why-choose-text h2 {
-  color: var(--text-dark);
+.why-choose-text h2,
+.why-choose-text h3 {
+  color: var(--primary-heading);
   margin-bottom: var(--spacing-md);
+}
+
+.why-choose-text h4 {
+  color: var(--secondary-heading);
 }
 
 .why-choose-text p {
   font-size: 1.1rem;
-  color: var(--text-medium);
+  color: var(--text-color);
   margin-bottom: var(--spacing-lg);
   line-height: 1.7;
 }
@@ -110,13 +111,13 @@
 }
 
 .feature-item h4 {
-  color: var(--text-dark);
+  color: var(--secondary-heading);
   margin-bottom: var(--spacing-xs);
   font-size: 1.1rem;
 }
 
 .feature-item p {
-  color: var(--text-medium);
+  color: var(--text-color);
   margin: 0;
   font-size: 0.95rem;
 }
@@ -167,14 +168,14 @@
 .testimonials-main-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #1a365d;
+  color: var(--primary-heading);
   margin-bottom: var(--spacing-md);
   font-family: var(--font-heading);
 }
 
 .testimonials-intro {
   font-size: 1.1rem;
-  color: #4a5568;
+  color: var(--text-color);
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.7;
@@ -195,7 +196,7 @@
 .excellent-text {
   font-size: 2rem;
   font-weight: 700;
-  color: #000;
+  color: var(--primary-heading);
   letter-spacing: 1px;
   font-family: var(--font-heading);
 }
@@ -212,7 +213,7 @@
 
 .reviews-count {
   font-size: 1rem;
-  color: #000;
+  color: var(--text-color);
   font-weight: 500;
 }
 
@@ -237,32 +238,10 @@
 .testimonials-carousel {
   display: flex;
   gap: var(--spacing-md);
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow: hidden;
   flex: 1;
   scroll-behavior: smooth;
   justify-content: flex-start;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
-  -webkit-overflow-scrolling: touch;
-  padding-bottom: var(--spacing-sm);
-}
-
-.testimonials-carousel::-webkit-scrollbar {
-  height: 8px;
-}
-
-.testimonials-carousel::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.testimonials-carousel::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-}
-
-.testimonials-carousel::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .carousel-arrow {
@@ -302,7 +281,6 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   min-width: 300px;
   max-width: 350px;
-  width: 500px;
   flex: 0 0 auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -350,7 +328,7 @@
 .testimonial-name {
   font-size: 1rem;
   font-weight: 600;
-  color: #000;
+  color: var(--primary-heading);
 }
 
 .testimonial-date {
@@ -382,33 +360,30 @@
 }
 
 .verified-icon {
-  color: #4285F4;
+  color: var(--secondary-heading);
   flex-shrink: 0;
 }
 
 .testimonial-text {
   font-size: 0.95rem;
-  color: #4a5568;
+  color: var(--text-color);
   line-height: 1.6;
 }
 
 .read-more {
-  color: #4285F4;
+  color: var(--secondary-heading);
   cursor: pointer;
   text-decoration: underline;
   margin-left: 4px;
-  font-weight: 500;
-  transition: color 0.2s ease;
 }
 
 .read-more:hover {
-  color: #1a73e8;
-  text-decoration: underline;
+  color: var(--primary-heading);
 }
 
 /* CTA Section */
 .cta-section {
-  background: linear-gradient(135deg, var(--text-dark), #34495E);
+  background: linear-gradient(135deg, var(--primary-heading), var(--secondary-heading));
   color: white;
 }
 
@@ -433,10 +408,22 @@
   flex-wrap: wrap;
 }
 
+.cta-actions .btn {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.cta-actions .btn:hover {
+  background: white;
+  color: var(--primary-heading);
+  border-color: white;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
   .home {
-    padding-top: 80px;
+    padding-top: 0;
   }
   
   .stats-grid {
@@ -494,7 +481,8 @@
   }
   
   .testimonials-content {
-    width: 100%;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
   }
   
   .google-reviews-summary {

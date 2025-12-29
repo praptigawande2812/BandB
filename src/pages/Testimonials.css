@@ -1,6 +1,6 @@
 /* Testimonials Page Styles */
 .testimonials {
-  padding-top: 90px;
+  padding-top: 0;
 }
 
 /* Hero Section */
@@ -280,7 +280,7 @@
 /* Mobile Styles */
 @media (max-width: 768px) {
   .testimonials {
-    padding-top: 80px;
+    padding-top: 0;
   }
   
   .testimonials-hero-content h1 {

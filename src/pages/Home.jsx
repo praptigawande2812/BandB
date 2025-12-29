@@ -3,7 +3,7 @@ import { Calendar, Shield, Heart, Users, Star, ArrowRight, ChevronLeft, ChevronR
 import Hero from '../components/Hero';
 import ServiceCard from '../components/ServiceCard';
 import TestimonialCard from '../components/TestimonialCard';
-import babyImage from '../images/baby.jpg'; 
+import docImage from '../images/image.jpg'; 
 import './Home.css';
 import { useState } from 'react';
 
@@ -12,49 +12,49 @@ const Home = () => {
     {
       icon: Shield,
       title: 'General Pediatric Care',
-      description: 'Safe and comprehensive vaccination programs for all ages',
+      description: 'Early recognition of signs & treatment of all pediatric ailments with multidisciplinary approach',
       features: ['Immunization schedules', 'Travel vaccines', 'Flu shots']
     },
     {
       icon: Heart,
       title: 'Neonatal Consultation',
-      description: 'Regular check-ups to ensure healthy development',
+      description: 'Expert guidance for common newborn concerns and complete management of neonatal health conditions',
       features: ['Height & weight tracking', 'Milestone assessments', 'Growth charts']
     },
     {
       icon: Users,
       title: 'Growth & Development Assessment',
-      description: 'Comprehensive care for the whole family',
+      description: 'Regular monitoring of physical, cognitive, and developmental milestones to ensure healthy growth',
       features: ['Well-child visits', 'Sick visits', 'Parent education']
     },
     {
       icon: Shield,
       title: 'Infant & Child Nutrition Counseling',
-      description: 'Safe and comprehensive vaccination programs for all ages',
+      description: 'Personalized nutritional advice to support healthy eating habits and optimal growth at every stage',
       features: ['Immunization schedules', 'Travel vaccines', 'Flu shots']
     },
     {
       icon:Heart,
       title: 'Adolescent Counselling',
-      description: 'Regular check-ups to ensure healthy development',
+      description: 'Confidential and supportive guidance to address physical, emotional, and behavioral changes during adolescence',
       features: ['Height & weight tracking', 'Milestone assessments', 'Growth charts']
     },
     {
       icon:Users,
       title: 'Nebulisation Facility',
-      description: 'Comprehensive care for the whole family',
+      description: 'Safe and effective nebulisation treatment for respiratory conditions in infants and children',
       features: ['Well-child visits', 'Sick visits', 'Parent education']
     },
     {
       icon: Shield,
       title: 'Vaccination',
-      description: 'Safe and comprehensive vaccination programs for all ages',
+      description: 'Needle less immunisation facility available for comprehensive immunisation following national vaccination schedule',
       features: ['Immunization schedules', 'Travel vaccines', 'Flu shots']
     },
     {
       icon: Heart,
       title: 'Pharmacy',
-      description: 'Regular check-ups to ensure healthy development',
+      description: 'In-house pharmacy providing easy access to prescribed medicines for your child’s convenience',
       features: ['Height & weight tracking', 'Milestone assessments', 'Growth charts']
     }
   ];
@@ -127,7 +127,7 @@ const Home = () => {
   const scrollTestimonials = (direction) => {
     const carousel = document.querySelector('.testimonials-carousel');
     if (carousel) {
-      const scrollAmount = 400; // Adjust scroll amount as needed
+      const scrollAmount = 300; // Adjust scroll amount as needed
       carousel.scrollBy({
         left: direction === 'next' ? scrollAmount : -scrollAmount,
         behavior: 'smooth'
@@ -210,7 +210,7 @@ const Home = () => {
                 <div className="feature-item">
                   <div className="feature-icon">💝</div>
                   <div>
-                    <h4>Growing Healthy Futures</h4>
+                    <h4>Towards healthier tomorrow</h4>
                     <p>From newborn care to adolescent health, we focus on nurturing your child’s overall growth—physically, emotionally, and socially.</p>
                   </div>
                 </div>
@@ -232,7 +232,7 @@ const Home = () => {
                 <div className="home-image-placeholder">
                   <div className="image-overlay"></div>
                   <img
-                    src={babyImage}
+                    src={docImage}
                     alt="Pediatric Clinic"
                     className="home-image-img"
                   />
@@ -267,7 +267,7 @@ const Home = () => {
                   <div key={`${testimonial.name}-${index}`} className="google-testimonial-card">
                     <div className="testimonial-card-header">
                       <div className="testimonial-profile">
-                        <div className="profile-avatar" style={{ backgroundColor: '#2d5016' }}>
+                        <div className="profile-avatar" style={{ backgroundColor: '#1D6D80' }}>
                           {testimonial.initial}
                         </div>
                         <div className="testimonial-name-date">
@@ -339,9 +339,9 @@ const Home = () => {
                 <Calendar size={20} />
                 Book Appointment
               </Link> */}
-              <Link to="/contact" className="btn btn-outline">
+              <a href="tel:+919404339944" className="btn btn-outline">
                 Call Us Now
-              </Link>
+              </a>
             </div>
           </div>
         </div>

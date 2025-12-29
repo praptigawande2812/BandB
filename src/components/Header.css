@@ -36,7 +36,7 @@ Header Styles
 
 .logo-icon {
   font-size: 2.5rem;
-  background: linear-gradient(135deg, var(--primary-blue), var(--soft-green));
+  background: linear-gradient(135deg, var(--secondary-heading), var(--primary-heading));
   border-radius: var(--radius-md);
   padding: var(--spacing-sm);
   display: flex;
@@ -55,13 +55,13 @@ Header Styles
   font-family: var(--font-heading);
   font-weight: 700;
   font-size: 1.8rem;
-  color: var(--text-dark);
+  color: var(--primary-heading);
   line-height: 1.1;
 }
 
 .logo-subtitle {
   font-size: 0.9rem;
-  color: var(--text-medium);
+  color: var(--text-color);
   line-height: 1.1;
   font-weight: 500;
 }
@@ -85,7 +85,7 @@ Header Styles
 
 .nav-link {
   text-decoration: none;
-  color: var(--text-dark);
+  color: var(--primary-heading);
   font-weight: 600;
   padding: var(--spacing-sm) var(--spacing-md);
   border-radius: var(--radius-sm);
@@ -96,8 +96,8 @@ Header Styles
 
 .nav-link:hover,
 .nav-link.active {
-  color: var(--accent-orange);
-  background: rgba(255, 179, 71, 0.1);
+  color: var(--secondary-heading);
+  background: rgba(29, 109, 128, 0.1);
 }
 
 .nav-link.active::after {
@@ -108,7 +108,7 @@ Header Styles
   transform: translateX(-50%);
   width: 4px;
   height: 4px;
-  background: var(--accent-orange);
+  background: var(--secondary-heading);
   border-radius: 50%;
 }
 
@@ -130,8 +130,8 @@ Header Styles
 }
 
 .menu-toggle:hover {
-  background: var(--light-blue);
-  color: var(--accent-orange);
+  background: rgba(29, 109, 128, 0.1);
+  color: var(--secondary-heading);
 }
 
 /* Mobile Styles */

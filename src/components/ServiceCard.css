@@ -57,13 +57,13 @@
 
 .service-title {
   font-size: 1.3rem;
-  color: #0077b6;
+  color: var(--secondary-heading);
   margin-bottom: 10px;
   font-weight: 600;
 }
 
 .service-description {
   font-size: 0.95rem;
-  color: #555;
+  color: var(--text-color);
   line-height: 1.5;
 }

@@ -1,6 +1,6 @@
 /* Contact Page Styles */
 .contact {
-  padding-top: 90px;
+  padding-top: 0;
 }
 
 /* Hero Section */
@@ -354,7 +354,7 @@
 /* Mobile Styles */
 @media (max-width: 768px) {
   .contact {
-    padding-top: 80px;
+    padding-top: 0;
   }
   
   .contact-hero-content h1 {

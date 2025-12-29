@@ -18,7 +18,7 @@ const Hero = () => {
             <div className="hero-text animate-slide-in-left">
               <h1 className="hero-title">
                 Babies And Beyond
-                <h5 className="hero-title-accent">Clinic and Vaccination Center</h5>
+                <h5 className="hero-title-accent">Children's Clinic and Vaccination Center</h5>
               </h1>
               <p className="hero-description">
                 Welcome to Little Hearts Pediatric Clinic, where we provide compassionate,
@@ -32,6 +32,13 @@ const Hero = () => {
                   Book Appointment
                   <ArrowRight size={16} />
                 </Link> */}
+                <a 
+                  href="tel:+919404339944"
+                  className="btn btn-primary btn-lg"
+                >
+                  <Phone size={20} />
+                  Call Us
+                </a>
                 <a 
                   href="https://wa.me/919404339944?text=Hello, I would like to book an appointment for my child."
                   target="_blank"
