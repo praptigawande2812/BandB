@@ -19,7 +19,7 @@ const Hero = () => {
               <p className="hero-title">
                 Babies & Beyond
               </p>
-              <h3 className="hero-title-accent">Children Clinic & Vaccination Center</h3>
+              <h4 className="hero-title-accent">Children Clinic & Vaccination Center</h4>
               <p className="hero-description">
                 Welcome to Babies & Beyond Children Clinic, where we provide compassionate,
                 comprehensive healthcare for children of all ages. Our experienced pediatrician, Dr. Vaishnavi Bhagat- Gavhane
