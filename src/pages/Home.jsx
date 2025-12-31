@@ -61,6 +61,30 @@ const Home = () => {
 
   const testimonials = [
     {
+      name: 'Ashish Gorle',
+      content: 'Highly recommend Dr. Vaishnavi. She listens carefully, diagnoses thoroughly, and provides expert guidance in a child-friendly environment.',
+      rating: 5,
+      date: '3 weeks ago',
+      initial: 'A',
+      verified: true
+    },
+    {
+      name: 'Pranita Ghule',
+      content: 'Dr. Vaishnavi provides expert pediatric care and ensures parents fully understand the treatment plan. Truly a wonderful doctor.',
+      rating: 5,
+      date: '1 month ago',
+      initial: 'P',
+      verified: true
+    },
+    {
+      name: 'Shikha Shukla',
+      content: 'Dr. Vaishnavi is an excellent pediatrician who truly cares for her patients. She listens carefully, explains everything clearly, and makes children feel comfortable. Her kind and patient nature puts both children and parents at ease. Highly recommended for any parent looking for a caring and professional pediatrician!',
+      rating: 5,
+      date: '2 months ago',
+      initial: 'S',
+      verified: true
+    },
+    {
       name: 'Aniket Kulkarni',
       content: 'Visited the clinic for my baby’s check-up and had a very positive experience. The care and attention were excellent.',
       rating: 5,
@@ -85,14 +109,6 @@ const Home = () => {
       verified: true
     },
     {
-      name: 'Pranita Ghule',
-      content: 'Dr. Vaishnavi provides expert pediatric care and ensures parents fully understand the treatment plan. Truly a wonderful doctor.',
-      rating: 5,
-      date: '1 month ago',
-      initial: 'P',
-      verified: true
-    },
-    {
       name: 'Bhagyashree Kalshetty',
       content: 'Very attentive doctor. Answers all doubts patiently. The clinic is clean, well maintained, and staff is polite.',
       rating: 5,
@@ -106,22 +122,6 @@ const Home = () => {
       rating: 5,
       date: '2 weeks ago',
       initial: 'N',
-      verified: true
-    },
-    {
-      name: 'Ashish Gorle',
-      content: 'Highly recommend Dr. Vaishnavi. She listens carefully, diagnoses thoroughly, and provides expert guidance in a child-friendly environment.',
-      rating: 5,
-      date: '3 weeks ago',
-      initial: 'A',
-      verified: true
-    },
-    {
-      name: 'Santosh Dhage',
-      content: 'I truly appreciate the care and attention given to my child. A reliable and caring children’s clinic in Wakad.',
-      rating: 5,
-      date: '1 month ago',
-      initial: 'S',
       verified: true
     },
     {
@@ -219,7 +219,7 @@ const Home = () => {
         <div className="container">
           <div className="why-choose-content">
             <div className="why-choose-text animate-slide-in-left">
-              <h3>Dr.Vaishnavi's Child and Vaccination Clinic, Wakad</h3>
+              <h2>Dr.Vaishnavi Bhagat - Gavhane</h2>
               <div>
               <h4>Consulting Pediatrician & Neonatologist</h4>
               <strong>MBBS</strong>(GMC Nagpur), <strong>MD Pediatics</strong>(BJ GMC,Pune), <strong>Fellowship in Neonatology</strong>(Sassoon Hospital,Pune) 
@@ -282,7 +282,7 @@ const Home = () => {
           <div className="testimonials-header text-center mb-xl">
             <h2 className="testimonials-main-title">Hear From Our Happy Parents</h2>
             <p className="testimonials-intro">
-              At Dr. Vaishnavi's Child & Vaccination Clinic, we take pride in providing the best care for your little ones. 
+              At Babies & Beyond Children Clinic, we take pride in providing the best care for your little ones. 
               But don't just take our word for it—explore the heartfelt testimonials from parents who have trusted us with 
               their children's health and vaccinations.
             </p>

@@ -12,7 +12,7 @@ const Footer = () => {
     { path: '/services', label: 'Infant & Child Nutrition Counselling' },
     { path: '/services', label: 'Adolescent Counselling' },
     { path: '/services', label: 'Nebulisation Facility' },
-    { path: '/services', label: 'Vaccination' },
+    { path: '/services', label: 'Needlefree Vaccination' },
     { path: '/services', label: 'Pharmacy' }
 
   ];
@@ -102,7 +102,7 @@ const Footer = () => {
                 <div className="contact-item">
                   <Clock size={16} />
                   <span>
-                    Mon-Sat: 10:00 AM - 2:00 PM & 4:00 PM - 10:00 PM<br />
+                    Mon-Sat: 11:00 AM - 2:00 PM & 4:00 PM - 10:00 PM<br />
                     Sun: 11:00 AM - 2:00 PM & Evening<br />
                   </span>
                 </div>
@@ -116,7 +116,7 @@ const Footer = () => {
         <div className="container">
           <div className="footer-bottom-content">
             <p className="copyright">
-              © {currentYear} Babies and Beyond Pediatric Clinic. All rights reserved.
+              © {currentYear} Babies & Beyond Children Clinic. All rights reserved.
             </p>
             <div className="footer-legal">
               <Link to="/privacy" className="legal-link">Privacy Policy</Link>

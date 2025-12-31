@@ -15,14 +15,14 @@ const Hero = () => {
           <div className="hero-grid">
             
             {/* Left Text Section */}
-            <div className="hero-text animate-slide-in-left">
-              <h1 className="hero-title">
-                Babies And Beyond
-                <h5 className="hero-title-accent">Children's Clinic and Vaccination Center</h5>
-              </h1>
+            <h className="hero-text animate-slide-in-left">
+              <p className="hero-title">
+                Babies & Beyond
+              </p>
+              <h3 className="hero-title-accent">Children Clinic & Vaccination Center</h3>
               <p className="hero-description">
-                Welcome to Babies & Beyond Children's Clinic, where we provide compassionate,
-                comprehensive healthcare for children of all ages. Our experienced team
+                Welcome to Babies & Beyond Children Clinic, where we provide compassionate,
+                comprehensive healthcare for children of all ages. Our experienced pediatrician, Dr. Vaishnavi Bhagat- Gavhane
                 is dedicated to ensuring your child grows up healthy, happy, and strong.
               </p>
 
@@ -54,7 +54,7 @@ const Hero = () => {
                 <h4>Open 7 days a week</h4>
                 </div>
               </div>
-            </div>
+            </h>
 
             {/* Right Image Section */}
             <div className="hero-image animate-slide-in-right">

@@ -70,7 +70,7 @@
 .why-choose-text h2,
 .why-choose-text h3 {
   color: var(--primary-heading);
-  margin-bottom: var(--spacing-md);
+  /* margin-bottom: var(--spacing-md); */
 }
 
 .why-choose-text h4 {
@@ -80,7 +80,7 @@
 .why-choose-text p {
   font-size: 1.1rem;
   color: var(--text-color);
-  margin-bottom: var(--spacing-lg);
+  /* margin-bottom: var(--spacing-lg); */
   line-height: 1.7;
 }
 
@@ -112,7 +112,7 @@
 
 .feature-item h4 {
   color: var(--secondary-heading);
-  margin-bottom: var(--spacing-xs);
+  /* margin-bottom: var(--spacing-xs); */
   font-size: 1.1rem;
 }
 
