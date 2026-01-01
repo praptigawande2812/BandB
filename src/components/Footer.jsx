@@ -103,7 +103,7 @@ const Footer = () => {
                   <Clock size={16} />
                   <span>
                     Mon-Sat: 11:00 AM - 2:00 PM & 4:00 PM - 10:00 PM<br />
-                    Sun: 11:00 AM - 2:00 PM & Evening<br />
+                    Sun: 11:00 AM - 2:00 PM <br />
                   </span>
                 </div>
               </div>

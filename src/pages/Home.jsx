@@ -3,7 +3,11 @@ import { Calendar, Shield, Heart, Users, Star, ArrowRight, ChevronLeft, ChevronR
 import Hero from '../components/Hero';
 import ServiceCard from '../components/ServiceCard';
 import TestimonialCard from '../components/TestimonialCard';
-import docImage from '../images/image.jpg'; 
+import docImage from '../images/image.jpg';
+import photo1 from '../images/1.jpg';
+import photo2 from '../images/2.jpg';
+import photo3 from '../images/3.jpg';
+import photo4 from '../images/4.jpg';
 import './Home.css';
 import { useState } from 'react';
 
@@ -270,6 +274,42 @@ const Home = () => {
                     className="home-image-img"
                   />
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Vaccination Camp Gallery */}
+      <section className="vaccination-gallery py-xxl">
+        <div className="container">
+          <div className="section-header text-center mb-xl">
+            <h2>Needleless Vaccination Camp</h2>
+            <p>Moments from our needleless vaccination camp - making immunizations comfortable and stress-free for children</p>
+          </div>
+          <div className="gallery-grid">
+            <div className="gallery-item">
+              <div className="gallery-image-wrapper">
+                <img src={photo1} alt="Needleless Vaccination Camp" className="gallery-image" />
+                <div className="gallery-overlay"></div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-image-wrapper">
+                <img src={photo2} alt="Needleless Vaccination Camp" className="gallery-image" />
+                <div className="gallery-overlay"></div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-image-wrapper">
+                <img src={photo3} alt="Needleless Vaccination Camp" className="gallery-image" />
+                <div className="gallery-overlay"></div>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <div className="gallery-image-wrapper">
+                <img src={photo4} alt="Needleless Vaccination Camp" className="gallery-image" />
+                <div className="gallery-overlay"></div>
               </div>
             </div>
           </div>

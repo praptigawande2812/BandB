@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Calendar, Phone, ArrowRight } from 'lucide-react';
-import babyImage from '../images/baby.jpg'; 
+import babyVideo from '../images/bb.mp4'; 
 import './Hero.css';
 
 const Hero = () => {
@@ -61,11 +61,16 @@ const Hero = () => {
               <div className="hero-image-container">
                 <div className="hero-image-placeholder">
                   <div className="image-overlay"></div>
-                  <img
-                    src={babyImage}
-                    alt="Pediatric Clinic"
+                  <video
+                    src={babyVideo}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
                     className="hero-image-img"
-                  />
+                  >
+                    Your browser does not support the video tag.
+                  </video>
                 </div>
               </div>
             </div>
