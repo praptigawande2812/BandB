@@ -34,7 +34,7 @@ const Footer = () => {
                 <div className="logo-icon">🏥</div>
                 <div className="logo-text">
                   <h2 className="logo-name">Babies & Beyond</h2>
-                  <h3 className="logo-subtitle">Pediatric Clinic</h3>
+                  <h3 className="logo-subtitle">Children Clinic & Vaccination Center</h3>
                 </div>
               </div>
               <p className="footer-description">

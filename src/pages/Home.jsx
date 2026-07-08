@@ -164,7 +164,7 @@ const Home = () => {
   const scrollTestimonials = (direction) => {
     const carousel = document.querySelector('.testimonials-carousel');
     if (carousel) {
-      const scrollAmount = 300; // Adjust scroll amount as needed
+      const scrollAmount = 280; // Adjust scroll amount as needed
       carousel.scrollBy({
         left: direction === 'next' ? scrollAmount : -scrollAmount,
         behavior: 'smooth'
@@ -284,8 +284,7 @@ const Home = () => {
       <section className="vaccination-gallery py-xxl">
         <div className="container">
           <div className="section-header text-center mb-xl">
-            <h2>Needleless Vaccination Camp</h2>
-            <p>Moments from our needleless vaccination camp - making immunizations comfortable and stress-free for children</p>
+            <h2>Glimpses of our little ones</h2>
           </div>
           <div className="gallery-grid">
             <div className="gallery-item">
